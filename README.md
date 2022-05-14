@@ -94,6 +94,8 @@ You can also run the samples in Docker (see below).
 
     dotnet ef migrations add InitialIdentityModel --context appidentitydbcontext -p ../Infrastructure/Infrastructure.csproj -s Web.csproj -o Identity/Migrations
     ```
+    Update-Database -context catalogcontext
+    Update-Database -context appidentitydbcontext
 
 ## Running the sample using Docker
 
